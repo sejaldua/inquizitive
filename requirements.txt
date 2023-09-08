@@ -1,0 +1,6 @@
+openai
+chromadb
+unstructured[pdf]
+python-magic-bin
+tiktoken
+langchain

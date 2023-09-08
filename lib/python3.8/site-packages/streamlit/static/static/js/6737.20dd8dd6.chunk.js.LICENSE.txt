@@ -1,0 +1,21 @@
+/*!
+     * jQuery Mousewheel 3.1.13
+     *
+     * Copyright jQuery Foundation and other contributors
+     * Released under the MIT license
+     * http://jquery.org/license
+     */
+
+/*!
+     * numbro.js
+     * version : 1.6.2
+     * author : Företagsplatsen AB
+     * license : MIT
+     * http://www.foretagsplatsen.se
+     */
+
+/*! Hammer.JS - v2.0.7 - 2016-04-22
+     * http://hammerjs.github.io/
+     *
+     * Copyright (c) 2016 Jorik Tangelder;
+     * Licensed under the MIT license */
