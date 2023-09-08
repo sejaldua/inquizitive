@@ -3,12 +3,19 @@ from langchain.vectorstores import Chroma
 from langchain.text_splitter import CharacterTextSplitter
 from langchain import OpenAI, VectorDBQA
 from langchain.document_loaders import DirectoryLoader
+from langchain.document_loaders import PyPDFLoader
+from langchain.document_loaders import Docx2txtLoader
+from langchain.document_loaders import TextLoader
+from langchain.document_loaders import UnstructuredMarkdownLoader
 from langchain.prompts import PromptTemplate
 from langchain.chains.question_answering import load_qa_chain
+
 import os
 import nltk
 import config
 import logging
+import streamlit as st
+import tempfile
 
 # Initialize logging with the specified configuration
 logging.basicConfig(
@@ -21,21 +28,45 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-# Load documents from the specified directory using a DirectoryLoader object
-loader = DirectoryLoader(config.FILE_DIR, glob='*.pdf')
-documents = loader.load()
+# load documents from the specified directory using a DirectoryLoader object
 
-# split the text to chuncks of of size 1000
-text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
-# Split the documents into chunks of size 1000 using a CharacterTextSplitter object
-texts = text_splitter.split_documents(documents)
+def load_documents(files=[]):
+    if len(files) == 0:
+        loader = DirectoryLoader(config.FILE_DIR)
+        documents = loader.load()
+    else:
+        documents = []
+        for f in files:
+            temp_dir = tempfile.TemporaryDirectory()
+            temp_filepath = os.path.join(temp_dir.name, f.name)
+            with open(temp_filepath, "wb") as fout:
+                fout.write(f.read())
+            fname = f.name
+            print(fname)
+            if fname.endswith('.pdf'):
+                loader = PyPDFLoader(temp_filepath)
+                documents.extend(loader.load())
+            elif fname.endswith('.docx') or fname.endswith('.doc'):
+                loader = Docx2txtLoader(temp_filepath)
+                documents.extend(loader.load())
+            elif fname.endswith('.txt'):
+                loader = TextLoader(temp_filepath)
+                documents.extend(loader.load())
+            elif fname.endswith('.md'):
+                loader = UnstructuredMarkdownLoader(temp_filepath)
+                documents.extend(loader.load())
 
-# Create a vector store from the chunks using an OpenAIEmbeddings object and a Chroma object
-embeddings = OpenAIEmbeddings(openai_api_key=config.OPENAI_API_KEY)
-docsearch = Chroma.from_documents(texts, embeddings)
+    # split the text to chuncks of of size 1000
+    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+    texts = text_splitter.split_documents(documents)
+
+    # create a vector store from the chunks using an OpenAIEmbeddings object and a Chroma object
+    embeddings = OpenAIEmbeddings(openai_api_key=config.OPENAI_API_KEY)
+    docsearch = Chroma.from_documents(texts, embeddings)
+    return docsearch
 
 # Define answer generation function
-def answer(prompt: str, persist_directory: str = config.PERSIST_DIR) -> str:
+def answer(prompt: str, docsearch, persist_directory: str = config.PERSIST_DIR) -> str:
     
     # Log a message indicating that the function has started
     LOGGER.info(f"Start answering based on prompt: {prompt}.")
@@ -48,8 +79,8 @@ def answer(prompt: str, persist_directory: str = config.PERSIST_DIR) -> str:
     doc_chain = load_qa_chain(
         llm=OpenAI(
             openai_api_key = config.OPENAI_API_KEY,
-            model_name="text-davinci-003",
-            temperature=0,
+            model_name="gpt-3.5-turbo",
+            temperature=0.7,
             max_tokens=300,
         ),
         chain_type="stuff",
@@ -70,5 +101,5 @@ def answer(prompt: str, persist_directory: str = config.PERSIST_DIR) -> str:
     LOGGER.info(f"The returned answer is: {answer}")
     
     # Log a message indicating that the function has finished and return the answer.
-    LOGGER.info(f"Answering module over.")
+    LOGGER.info(f"Answering process completed.")
     return answer

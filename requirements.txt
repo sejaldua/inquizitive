@@ -4,3 +4,4 @@ unstructured[pdf]
 python-magic-bin
 tiktoken
 langchain
+pypdf
