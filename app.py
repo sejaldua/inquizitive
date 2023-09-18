@@ -247,7 +247,7 @@ else:
 
 # docsearch = chat.create_doc_embeddings(documents)
 
-@st.cache()
+@st.cache_data()
 def generate_quiz(text):
 
     test_source_text = text
@@ -290,8 +290,9 @@ if 'quiz_active' in st.session_state and st.session_state['quiz_active']:
     index = question_num - 1
 
     answer_choices = options[index]
-    st.markdown(f"#### Question {question_num}")
-    user_answer = st.radio(questions[index], options=answer_choices)
+    st.markdown(f"### Question {question_num}")
+    st.markdown(f"##### {questions[index]}")
+    user_answer = st.radio("", label_visibility="collapsed", options=answer_choices)
     user_answer_num = answer_choices.index(user_answer)
     with st.expander('Reveal Answer', expanded=False):
         if user_answer_num == answers[index][0]:

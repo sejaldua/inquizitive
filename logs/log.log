@@ -2,3 +2,33 @@
 2023-09-08 09:50:38,991 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
 2023-09-08 09:56:39,129 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
 2023-09-08 09:57:13,951 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-18 19:44:48,191 - INFO - Found ea04fcce-901a-5ee0-a344-480368f47e3a in Weaviate
+2023-09-18 19:44:48,289 - WARNING - Could not find 7388e4e5-0dec-57b9-b883-312bed450624 in Weaviate
+2023-09-18 19:44:49,483 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-18 19:44:49,484 - INFO - UUID: 735a0c54-3aa9-59af-81e4-a2eccdd7a8d4
+2023-09-18 19:44:49,484 - INFO - Distance: 0.043860674
+2023-09-18 19:44:49,590 - INFO - Found 9802177d-43ef-5497-8ba1-cb4eba660022 in Weaviate
+2023-09-18 19:45:04,399 - INFO - Found ea04fcce-901a-5ee0-a344-480368f47e3a in Weaviate
+2023-09-18 19:45:04,503 - WARNING - Could not find 7388e4e5-0dec-57b9-b883-312bed450624 in Weaviate
+2023-09-18 19:45:05,150 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-18 19:45:05,150 - INFO - UUID: 735a0c54-3aa9-59af-81e4-a2eccdd7a8d4
+2023-09-18 19:45:05,151 - INFO - Distance: 0.043858528
+2023-09-18 19:45:05,310 - INFO - Found 9802177d-43ef-5497-8ba1-cb4eba660022 in Weaviate
+2023-09-18 19:49:59,438 - WARNING - Could not find 2cd05c4f-38a6-5585-8ad0-413ed6ce80ea in Weaviate
+2023-09-18 19:50:00,024 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-18 19:50:00,024 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-18 19:50:21,443 - INFO - Saved 2cd05c4f-38a6-5585-8ad0-413ed6ce80ea to Weaviate
+2023-09-18 19:50:21,543 - WARNING - Could not find 21911139-14a1-578c-9c32-b3ece81ad318 in Weaviate
+2023-09-18 19:50:22,060 - INFO - Generating output for 
+    Summarize the following into bullet points th...
+2023-09-18 19:50:22,060 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Summarize the following into bullet points th...
+2023-09-18 19:50:28,157 - INFO - Saved 21911139-14a1-578c-9c32-b3ece81ad318 to Weaviate
+2023-09-18 19:50:28,258 - WARNING - Could not find cddc4845-a8d9-5214-83fb-14488bdb52d4 in Weaviate
+2023-09-18 19:50:29,116 - INFO - Generating output for 
+    Return a glossary of key terms or jargon from...
+2023-09-18 19:50:29,117 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Return a glossary of key terms or jargon from...
+2023-09-18 19:50:43,149 - INFO - Saved cddc4845-a8d9-5214-83fb-14488bdb52d4 to Weaviate
