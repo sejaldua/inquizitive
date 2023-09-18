@@ -44,14 +44,14 @@ Retrieval-Augmented Generation Revision Quiz JSON Builder partial prompt:
     Sample quiz question:
 
     {
-        "question": "What is the capital of France?",
-        "options": ["Paris", "London", "Berlin", "Madrid"],
-        "answer": [0],
-        "explanation": "Paris is the capital of France",
+        "question": "What element does the chemical symbol Au stand for?",
+        "options": ["Silver", "Magnesium", "Salt", "Gold"],
+        "answer": [3],
+        "explanation": "The chemical symbol Au comes from the Latin word aurum, meaning "gold." 
+                        This name is thought to have been given to gold because of its bright,
+                        shining appearance.",
         "source passage": "SOME PASSAGE EXTRACTED FROM THE INPUT TEXT"
     }
-
-*Shout-out to @databyjp for his RAG task manager, which served as inspiration for this app*
 
 ## Future Work
 
