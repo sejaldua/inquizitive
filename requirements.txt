@@ -6,3 +6,4 @@ tiktoken
 langchain
 pypdf
 weaviate-client
+streamlit-chat
