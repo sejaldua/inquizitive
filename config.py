@@ -1,4 +1,3 @@
-OPENAI_API_KEY = "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"  # replace with your actual OpenAI API key
 PERSIST_DIR = "vectorstore"  # replace with the directory where you want to store the vectorstore
 LOGS_FILE = "logs/log.log"  # replace with the path where you want to store the log file
 FILE ="doc/CV.pdf" # replace with the path where you have your documents

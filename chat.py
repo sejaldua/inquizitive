@@ -69,7 +69,7 @@ def create_doc_embeddings(documents) -> any:
     texts = text_splitter.split_documents(documents)
 
     # create a vector store from the chunks using an OpenAIEmbeddings object and a Chroma object
-    embeddings = OpenAIEmbeddings(openai_api_key=config.OPENAI_API_KEY)
+    embeddings = OpenAIEmbeddings(openai_api_key=os.environ['OPENAI_APIKEY'])
     docsearch = Chroma.from_documents(texts, embeddings)
     return docsearch
 
@@ -86,7 +86,7 @@ def answer(prompt: str, docsearch, persist_directory: str = config.PERSIST_DIR) 
     # Load a QA chain using an OpenAI object, a chain type, and a prompt template.
     doc_chain = load_qa_chain(
         llm=OpenAI(
-            openai_api_key = config.OPENAI_API_KEY,
+            openai_api_key = os.environ['OPENAI_APIKEY'],
             model_name="gpt-3.5-turbo",
             temperature=0.7,
             max_tokens=300,
