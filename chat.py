@@ -16,6 +16,7 @@ import config
 import logging
 import streamlit as st
 import tempfile
+import re
 
 # Initialize logging with the specified configuration
 logging.basicConfig(
@@ -37,6 +38,7 @@ def load_documents(files=[]):
     else:
         documents = []
         for f in files:
+            print(f)
             temp_dir = tempfile.TemporaryDirectory()
             temp_filepath = os.path.join(temp_dir.name, f.name)
             with open(temp_filepath, "wb") as fout:
@@ -55,6 +57,10 @@ def load_documents(files=[]):
             elif fname.endswith('.md'):
                 loader = UnstructuredMarkdownLoader(temp_filepath)
                 documents.extend(loader.load())
+
+    # print(documents[0].page_content)
+    text = " ".join([re.sub('\s+', ' ', d.page_content) for d in documents])
+    print(text)
 
     # split the text to chuncks of of size 1000
     text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
