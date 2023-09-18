@@ -60,9 +60,11 @@ def load_documents(files=[]):
 
     # print(documents[0].page_content)
     text = " ".join([re.sub('\s+', ' ', d.page_content) for d in documents])
-    print(text)
+    return text, documents
 
-    # split the text to chuncks of of size 1000
+def create_doc_embeddings(documents) -> any:
+    
+    # split the text to chunks of of size 1000
     text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
     texts = text_splitter.split_documents(documents)
 
