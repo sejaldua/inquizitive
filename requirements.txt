@@ -1,7 +1,7 @@
 openai
 chromadb
 unstructured[pdf]
-python-magic-bin
+python-magic==0.4.15
 tiktoken
 langchain
 pypdf
