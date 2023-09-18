@@ -18,9 +18,12 @@ The concept of Quizlet was so sticky and effective because it walks students thr
 ## Technical Implementation
 
 APIs Used:
-- LangChain for document to text functionality
-- Weaviate for storage of output
-- Streamlit Chat for chatbot interface
+- **OpenAI**: `gpt-3.5-turbo` is used as the GPT model for the quiz generation prompt that I have used
+- **LangChain**: (any) document to text functionality
+- **Weaviate**: storage of generated text
+- **streamlit-chat**: chatbot interface  
+
+*NOTE: Necessary API keys are hard-coded into the `secrets.toml` file of the app, but my Weaviate setup will expire 14 days from September 18th, at which point, I will likely have to ask users to supply their own API keys (sorry).*
 
 Retrieval-Augmented Generation Revision Quiz JSON Builder partial prompt:
 
@@ -47,6 +50,8 @@ Retrieval-Augmented Generation Revision Quiz JSON Builder partial prompt:
         "explanation": "Paris is the capital of France",
         "source passage": "SOME PASSAGE EXTRACTED FROM THE INPUT TEXT"
     }
+
+*Shout-out to @databyjp for his RAG task manager, which served as inspiration for this app*
 
 ## Future Work
 
