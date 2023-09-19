@@ -247,3 +247,51 @@
 2023-09-18 23:33:42,050 - INFO - Calling gpt-3.5-turbo with prompt: 
         Write a set of multiple-choice quiz quest...
 2023-09-18 23:33:43,205 - INFO - error_code=context_length_exceeded error_message="This model's maximum context length is 4097 tokens. However, your messages resulted in 5566 tokens. Please reduce the length of the messages." error_param=messages error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-09-19 09:02:54,008 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 09:03:15,001 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 09:03:15,247 - INFO - Start answering based on prompt: What was the topic being covered in this lesson?.
+2023-09-19 09:03:15,251 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 09:03:17,426 - INFO - The returned answer is: Based on the provided documents, the topic being covered in this lesson is "Text Preprocessing Techniques" in the context of Applied Text Analytics & Natural Language Processing.
+2023-09-19 09:03:17,427 - INFO - Answering process completed.
+2023-09-19 09:03:54,674 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 09:03:55,064 - INFO - Start answering based on prompt: What is stemmatization?.
+2023-09-19 09:03:55,065 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 09:04:01,050 - INFO - The returned answer is: Stemmatization is the process of reducing words to their word stem, base, or root form. It is a technique used in text preprocessing in natural language processing (NLP). Stemming helps to normalize words and reduce inflectional forms to a common base form. Unlike lemmatization, which uses lexical knowledge bases to get the correct base forms of words, stemming simply chops off inflections.
+
+I didn't find the answer to your question in the provided documentation. Could you please provide more details or rephrase your query? I'm here to help with anything else you need.
+2023-09-19 09:04:01,050 - INFO - Answering process completed.
+2023-09-19 09:04:35,320 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 09:04:35,791 - INFO - Start answering based on prompt: What are the 3 most key concepts covered in the provided documentation?.
+2023-09-19 09:04:35,792 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 09:04:44,617 - INFO - The returned answer is: Based on the provided documentation, the three key concepts covered are:
+
+1. NLP Terminology:
+- Corpus: collection of text (e.g., Yelp Reviews, Wikipedia)
+- Syntax: the grammatical structure of the text
+- Semantics: the meaning of text
+- Tokenization: splitting longer pieces of texts into smaller pieces (tokens)
+- Vocabulary: list of unique words
+- Stop words: commonly used words that don't contribute a lot to the overall meaning (e.g., "the", "a", "an", "is", "are")
+
+2. Text Preprocessing Techniques:
+- Practice basic preprocessing techniques on text data
+
+3. Learning Objectives:
+- Introduction to NLP terminology
+- Diving into NLP and text preprocessing techniques
+
+If you have any more questions or need further assistance, feel free to ask.
+2023-09-19 09:04:44,618 - INFO - Answering process completed.
+2023-09-19 09:05:25,270 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 09:05:25,483 - INFO - Start answering based on prompt: What were the lesson objectives from the provided documentation?.
+2023-09-19 09:05:25,484 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 09:05:28,191 - INFO - The returned answer is: Based on the provided documentation, the lesson objectives of the Applied Text Analytics & Natural Language Processing course are:
+
+1. Introduce students to some NLP terminology.
+2. Practice basic preprocessing techniques on text data.
+
+Is there anything else I can help you with?
+2023-09-19 09:05:28,192 - INFO - Answering process completed.
+2023-09-19 09:06:02,295 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 09:06:16,032 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 09:11:28,085 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.

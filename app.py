@@ -131,7 +131,7 @@ def revision_quiz_json_builder(source_text: str) -> str:
     :return: The generated quiz; should be parsable into valid JSON.
     """
     prompt = """
-        Write a set of multiple-choice quiz questions with three to four options each 
+        Write a set of multiple-choice quiz questions with four options each 
         to review and internalise the following information.
 
         The quiz should be returned in a JSON format so that it can be displayed and undertaken by the user.
@@ -248,9 +248,6 @@ else:
     learning_files = files if files is not None else []
     text, documents = chat.load_documents(learning_files)
 
-
-# docsearch = chat.create_doc_embeddings(documents)
-
 @st.cache_data()
 def generate_quiz(text):
 
@@ -269,13 +266,15 @@ def generate_quiz(text):
 def decrement_question_num():
     if st.session_state['curr_question'] > 0:
         st.session_state['curr_question'] -= 1
+        ClearAll()
 
 def increment_question_num():
     print('Incrementing question', st.session_state['curr_question'])
     if st.session_state['curr_question'] < st.session_state['quiz_length'] - 1:
         st.session_state['curr_question'] += 1
+        ClearAll()
 
-page = st.selectbox('Select a study mode', ['Summary', 'Glossary', 'Quiz'], index=0)
+page = st.selectbox('Select a study mode', ['Summary', 'Glossary', 'Quiz', 'Chatbot'], index=0)
 
 if st.sidebar.button('Process Study Materials'):
     st.session_state['materials_processed'] = True
@@ -295,7 +294,7 @@ if 'materials_processed' in st.session_state and st.session_state['materials_pro
         st.write(glossary)
 
     # render quiz page
-    if page == 'Quiz':
+    elif page == 'Quiz':
         try:
             quiz_json = json.loads(outputs[0])["quiz"]
             st.session_state['quiz_length'] = len(quiz_json)
@@ -316,51 +315,83 @@ if 'materials_processed' in st.session_state and st.session_state['materials_pro
                 st.button('Next Question', use_container_width=True, on_click=increment_question_num)
 
             st.markdown(f"##### Question {question_num + 1} of {len(quiz_json)}: {questions[question_num]}")
-            user_answer = st.radio("", label_visibility="collapsed", options=answer_choices)
-            user_answer_num = answer_choices.index(user_answer)
-            with st.expander('Reveal Answer', expanded=False):
-                if user_answer_num == answers[question_num][0]:
-                    st.success(f'Correct! {explanations[question_num]}')
-                else:
-                    st.error(f'Incorrect :( \n\n The correct answer was: {answer_choices[answers[question_num][0]]}\n\n {explanations[question_num]}')
+            # user_answer = st.radio("", label_visibility="collapsed", options=answer_choices)
+
+            if 'a' not in st.session_state:
+                st.session_state.a = 0
+                st.session_state.b = 0
+                st.session_state.c = 0
+                st.session_state.d = 0
+
+            def ChangeA():
+                st.session_state.a,st.session_state.b,st.session_state.c,st.session_state.d = 1,0,0,0
+            def ChangeB():
+                st.session_state.a,st.session_state.b,st.session_state.c,st.session_state.d = 0,1,0,0
+            def ChangeC():
+                st.session_state.a,st.session_state.b,st.session_state.c,st.session_state.d = 0,0,1,0
+            def ChangeD():
+                st.session_state.a,st.session_state.b,st.session_state.c,st.session_state.d = 0,0,0,1
+            def ClearAll():
+                st.session_state.a,st.session_state.b,st.session_state.c,st.session_state.d = 0,0,0,0
+
+            checkboxA = st.checkbox(answer_choices[0], value = st.session_state.a, on_change = ChangeA)
+            checkboxB = st.checkbox(answer_choices[1], value = st.session_state.b, on_change = ChangeB)
+            checkboxC = st.checkbox(answer_choices[2], value = st.session_state.c, on_change = ChangeC)
+            checkboxD = st.checkbox(answer_choices[3], value = st.session_state.d, on_change = ChangeD)
+
+            if st.session_state.a:
+                user_answer = answer_choices[0]
+            elif st.session_state.b:
+                user_answer = answer_choices[1]
+            elif st.session_state.c:
+                user_answer = answer_choices[2]
+            elif st.session_state.d:
+                user_answer = answer_choices[3]
+            else:
+                user_answer = None
+
+            if user_answer is not None:
+                user_answer_num = answer_choices.index(user_answer)
+                with st.expander('Reveal Answer', expanded=False):
+                    if user_answer_num == answers[question_num][0]:
+                        st.success(f'Correct! {explanations[question_num]}')
+                    else:
+                        st.error(f'Incorrect :( \n\n The correct answer was: {answer_choices[answers[question_num][0]]}\n\n {explanations[question_num]}')
         except:
             st.info('Uh oh... could not generate a quiz for ya! Happy studying!')
         
         
+    elif page == 'Chatbot':
+        docsearch = chat.create_doc_embeddings(documents)
 
+        # Storing the chat
+        if 'generated' not in st.session_state:
+            st.session_state['generated'] = []
 
-# # Storing the chat
-# if 'generated' not in st.session_state:
-#     st.session_state['generated'] = []
+        if 'past' not in st.session_state:
+            st.session_state['past'] = []
 
-# if 'past' not in st.session_state:
-#     st.session_state['past'] = []
+        # Define a function to clear the input text
+        def clear_input_text():
+            global input_text
+            input_text = ""
 
-# # Define a function to clear the input text
-# def clear_input_text():
-#     global input_text
-#     input_text = ""
+        # We will get the user's input by calling the get_text function
+        def get_text():
+            global input_text
+            input_text = st.text_input("Ask a question! ", key="input", on_change=clear_input_text)
+            return input_text
 
-# # We will get the user's input by calling the get_text function
-# def get_text():
-#     global input_text
-#     input_text = st.text_input("Ask a question! ", key="input", on_change=clear_input_text)
-#     return input_text
+        user_input = get_text()
 
-# def main():
-#     user_input = get_text()
+        if user_input:
+            output = chat.answer(user_input, docsearch)
+            st.session_state.past.append(user_input)
+            st.session_state.generated.append(output)
 
-#     if user_input:
-#         output = chat.answer(user_input, docsearch)
-#         st.session_state.past.append(user_input)
-#         st.session_state.generated.append(output)
+        if st.session_state['generated']:
+            for i in range(len(st.session_state['generated'])-1, -1, -1):
+                message(st.session_state["generated"][i], key=str(i))
+                message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
 
-#     if st.session_state['generated']:
-#         for i in range(len(st.session_state['generated'])-1, -1, -1):
-#             message(st.session_state["generated"][i], key=str(i))
-#             message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
-
-# # Run the app
-# if __name__ == "__main__":
-#     main()
 
