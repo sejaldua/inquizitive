@@ -7,9 +7,9 @@ import openai
 import os
 from weaviate.util import generate_uuid5
 import weaviate
-from ragwrangler import db
-from ragwrangler import prompts
-from ragwrangler import utils
+from rag import db
+from rag import prompts
+from rag import utils
 import logging
 
 
@@ -293,32 +293,37 @@ if 'materials_processed' in st.session_state and st.session_state['materials_pro
 
     # render quiz page
     if page == 'Quiz':
-        quiz_json = json.loads(outputs[0])["quiz"]
-        st.session_state['quiz_length'] = len(quiz_json)
-        questions = [q['question'] for q in quiz_json]
-        options = [q['options'] for q in quiz_json]
-        answers = [q["answer"] for q in quiz_json]
-        explanations = [q['explanation'] for q in quiz_json]
+        try:
+            quiz_json = json.loads(outputs[0])["quiz"]
+            st.session_state['quiz_length'] = len(quiz_json)
+            questions = [q['question'] for q in quiz_json]
+            options = [q['options'] for q in quiz_json]
+            answers = [q["answer"] for q in quiz_json]
+            explanations = [q['explanation'] for q in quiz_json]
+            
+            # user selects which question they want to answer
+            # question_num = st.number_input('Choose a question', min_value=1, max_value = len(quiz_json), value=1)
+            question_num = st.session_state['curr_question']
+
+            answer_choices = options[question_num]
+            col1, col2 = st.columns(2)
+            with col1:
+                st.button('Previous Question', use_container_width=True, on_click=decrement_question_num)
+            with col2:
+                st.button('Next Question', use_container_width=True, on_click=increment_question_num)
+
+            st.markdown(f"##### Question {question_num + 1} of {len(quiz_json)}: {questions[question_num]}")
+            user_answer = st.radio("", label_visibility="collapsed", options=answer_choices)
+            user_answer_num = answer_choices.index(user_answer)
+            with st.expander('Reveal Answer', expanded=False):
+                if user_answer_num == answers[question_num][0]:
+                    st.success(f'Correct! {explanations[question_num]}')
+                else:
+                    st.error(f'Incorrect :( \n\n The correct answer was: {answer_choices[answers[question_num][0]]}\n\n {explanations[question_num]}')
+        except:
+            st.info('Uh oh... could not generate a quiz for ya! Happy studying!')
         
-        # user selects which question they want to answer
-        # question_num = st.number_input('Choose a question', min_value=1, max_value = len(quiz_json), value=1)
-        question_num = st.session_state['curr_question']
-
-        answer_choices = options[question_num]
-        col1, col2 = st.columns(2)
-        with col1:
-            st.button('Previous Question', use_container_width=True, on_click=decrement_question_num)
-        with col2:
-            st.button('Next Question', use_container_width=True, on_click=increment_question_num)
-
-        st.markdown(f"##### Question {question_num + 1} of {len(quiz_json)}: {questions[question_num]}")
-        user_answer = st.radio("", label_visibility="collapsed", options=answer_choices)
-        user_answer_num = answer_choices.index(user_answer)
-        with st.expander('Reveal Answer', expanded=False):
-            if user_answer_num == answers[question_num][0]:
-                st.success(f'Correct! {explanations[question_num]}')
-            else:
-                st.error(f'Incorrect :( \n\n The correct answer was: {answer_choices[answers[question_num][0]]}\n\n {explanations[question_num]}')
+        
 
 
 # # Storing the chat
