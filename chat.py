@@ -23,7 +23,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
-        logging.FileHandler(config.LOGS_FILE),
+        logging.FileHandler(constants.LOGS_FILE),
         logging.StreamHandler(),
     ],
 )
@@ -33,7 +33,7 @@ LOGGER = logging.getLogger(__name__)
 
 def load_documents(files=[]):
     if len(files) == 0:
-        loader = DirectoryLoader(config.FILE_DIR)
+        loader = DirectoryLoader(constants.FILE_DIR)
         documents = loader.load()
     else:
         documents = []
@@ -74,14 +74,14 @@ def create_doc_embeddings(documents) -> any:
     return docsearch
 
 # Define answer generation function
-def answer(prompt: str, docsearch, persist_directory: str = config.PERSIST_DIR) -> str:
+def answer(prompt: str, docsearch, persist_directory: str = constants.PERSIST_DIR) -> str:
     
     # Log a message indicating that the function has started
     LOGGER.info(f"Start answering based on prompt: {prompt}.")
     
     # Create a prompt template using a template from the config module and input variables
     # representing the context and question.
-    prompt_template = PromptTemplate(template=config.prompt_template, input_variables=["context", "question"])
+    prompt_template = PromptTemplate(template=constants.prompt_template, input_variables=["context", "question"])
     
     # Load a QA chain using an OpenAI object, a chain type, and a prompt template.
     doc_chain = load_qa_chain(
@@ -96,10 +96,10 @@ def answer(prompt: str, docsearch, persist_directory: str = config.PERSIST_DIR) 
     )
     
     # Log a message indicating the number of chunks to be considered when answering the user's query.
-    LOGGER.info(f"The top {config.k} chunks are considered to answer the user's query.")
+    LOGGER.info(f"The top {constants.k} chunks are considered to answer the user's query.")
     
     # Create a VectorDBQA object using a vector store, a QA chain, and a number of chunks to consider.
-    qa = VectorDBQA(vectorstore=docsearch, combine_documents_chain=doc_chain, k=config.k)
+    qa = VectorDBQA(vectorstore=docsearch, combine_documents_chain=doc_chain, k=constants.k)
     
     # Call the VectorDBQA object to generate an answer to the prompt.
     result = qa({"query": prompt})
