@@ -12,7 +12,7 @@ from langchain.chains.question_answering import load_qa_chain
 
 import os
 import nltk
-import config
+import constants
 import logging
 import streamlit as st
 import tempfile
