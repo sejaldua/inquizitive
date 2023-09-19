@@ -1,5 +1,6 @@
 openai
 chromadb
+unstructured
 unstructured[pdf]
 python-magic==0.4.15
 tiktoken
