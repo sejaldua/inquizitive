@@ -2,6 +2,7 @@ from typing import Union, List
 import weaviate
 import os
 import logging
+import streamlit as st
 
 logger = logging.getLogger(__name__)
 
@@ -17,9 +18,9 @@ def initialize() -> weaviate.Client:
 
 def connect_to_db() -> weaviate.Client:
     client = weaviate.Client(
-        url=os.environ['WCS_URL'],
-        auth_client_secret=weaviate.AuthApiKey(os.environ['WCS_ADMIN_KEY']),
-        additional_headers={"X-OpenAI-Api-Key": os.environ["OPENAI_APIKEY"]}
+        url=st.secrets['WCS_URL'],
+        auth_client_secret=weaviate.AuthApiKey(st.secrets['WCS_ADMIN_KEY']),
+        additional_headers={"X-OpenAI-Api-Key": st.secrets["OPENAI_APIKEY"]}
     )
     return client
 
