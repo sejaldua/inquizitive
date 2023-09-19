@@ -58,7 +58,7 @@ Retrieval-Augmented Generation Revision Quiz JSON Builder partial prompt:
 
 ## Future Work
 
-- [ ] Transcribe lectures from speech2text using LLM APIs and then use the output text to generate quiz questions
-- [ ] Summarize lecture slides
+- [x] Summarize lecture slides
+- [x] Help users review glossary terms in flashcard-like format before taking quiz
+- [ ] Transcribe lectures from YouTube using speech2text functionality from LLM APIs and then use the output text to generate quiz questions
 - [ ] Allow the user to chat with lecture slides using Question & Answering modules from LangChain
-- [ ] Help users review glossary terms in flashcard-like format before taking quiz
