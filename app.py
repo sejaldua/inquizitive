@@ -235,7 +235,10 @@ def get_glossary_builder(source_text: str) -> str:
     return prompt
 
 #Creating the chatbot interface
-st.title("Inquizitive 🥸")
+st.markdown("# inQUIZitive")
+st.markdown("###### 🥸🤖  in•quis•i•tive | inˈkwizədiv, iNGˈkwizədiv  🤖🥸")
+st.caption("Your LLM-powered AI study buddy, here to help you review your study materials and increase knowledge retention through \
+(1) summarization (2) glossary review (3) quizzes and (4) document question and answering")
 
 mode =  st.sidebar.selectbox('Choose demonstration mode', ['Pre-loaded', 'Interactive'])
 if mode == 'Pre-loaded':
