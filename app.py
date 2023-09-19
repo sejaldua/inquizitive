@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 GPT_MODELS = ["gpt-3.5-turbo", "gpt-3.5-turbo-16k", "gpt-4", "gpt-4-32k"]
 ALL_MODELS = GPT_MODELS
 
-openai.api_key = os.environ["OPENAI_APIKEY"]
+openai.api_key = st.secrets["OPENAI_APIKEY"]
 
 
 class RAGTask:
