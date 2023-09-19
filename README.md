@@ -5,7 +5,10 @@
 ### Key Links
 
 Streamlit App: [https://inquisitive.streamlit.app](https://inquisitive.streamlit.app)  
-Demo Tutorial: 
+
+Demo Video:
+
+![gif_demo](./media/streamlit-app-2023-09-18-22-09-45.gif)
 
 ### The Problem
 
