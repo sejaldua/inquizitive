@@ -236,7 +236,7 @@ def get_glossary_builder(source_text: str) -> str:
 
 #Creating the chatbot interface
 st.markdown("# inQUIZitive")
-st.markdown("###### 🥸🤖  in•quis•i•tive | inˈkwizədiv, iNGˈkwizədiv  🤖🥸")
+st.markdown("###### :disguised_face: :robot_face:  in•quis•i•tive | inˈkwizədiv, iNGˈkwizədiv  :robot_face: :disguised_face:")
 st.caption("Your LLM-powered AI study buddy, here to help you review your study materials and increase knowledge retention through \
 (1) summarization (2) glossary review (3) quizzes and (4) document question and answering")
 
