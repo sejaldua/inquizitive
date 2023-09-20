@@ -9,4 +9,5 @@ pypdf
 weaviate-client
 streamlit-chat
 docx2txt
+sqlite3 >= 3.35.0
 chromadb
