@@ -61,7 +61,13 @@ Retrieval-Augmented Generation Revision Quiz JSON Builder partial prompt:
 
 ## Demo Videos
 
-<img src="./media/summary.gif" width="350"/><img src="./media/glossary.gif" width="350"/>
+| **Summary** | **Glossary** |
+| --- | --- |
+| <img src="./media/summary.gif" width="350"/> | <img src="./media/glossary.gif" width="350"/>  |
+
+| **Quiz** | **Chatbot** |
+| --- | --- |
+| <img src="./media/quiz.gif" width="350"/> | <img src="./media/chatbot.gif" width="350"/> |
 
 
 ## Future Work
