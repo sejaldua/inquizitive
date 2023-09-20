@@ -2,13 +2,16 @@
 
 ## Project Overview
 
-### Key Links
+Description: **InQUIZitive** is an LLM-powered studying application leveraging retrieval-augmented generation (RAG) prompting in order to help students engage with their learning materials and improve knowledge retention.
+
+Supported Functionality:
+
+1. Summarization: summarize learning materials
+2. Glossary: identify key vocabulary terms that were introduced and defined in the uploaded materials
+3. Quiz: generate a multiple choice quiz to help the user review the key concepts covered
+4. Chatbot: provide a chatbot-like interface for users to engage with the subject matter interactively and creatively
 
 Streamlit App: [https://inquisitive.streamlit.app](https://inquisitive.streamlit.app)  
-
-Demo Video:
-
-![gif_demo](./media/streamlit-app-2023-09-18-22-09-45.gif)
 
 ### The Problem
 
@@ -55,6 +58,11 @@ Retrieval-Augmented Generation Revision Quiz JSON Builder partial prompt:
                         shining appearance.",
         "source passage": "SOME PASSAGE EXTRACTED FROM THE INPUT TEXT"
     }
+
+## Demo Videos
+
+<img src="./media/summary.gif" width="350"/><img src="./media/glossary.gif" width="350"/>
+
 
 ## Future Work
 

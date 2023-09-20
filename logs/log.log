@@ -470,3 +470,546 @@ Is there anything else I can help you with?
 2023-09-19 21:38:23,626 - INFO - Reading document ...
 2023-09-19 21:38:23,629 - INFO - Reading document from string ...
 2023-09-19 21:38:23,629 - INFO - Reading document ...
+2023-09-19 21:39:14,608 - INFO - Reading document from string ...
+2023-09-19 21:39:14,612 - INFO - Reading document ...
+2023-09-19 21:39:14,621 - INFO - Reading document from string ...
+2023-09-19 21:39:14,621 - INFO - Reading document ...
+2023-09-19 21:39:14,633 - INFO - Reading document from string ...
+2023-09-19 21:39:14,634 - INFO - Reading document ...
+2023-09-19 21:39:16,002 - INFO - Reading document from string ...
+2023-09-19 21:39:16,004 - INFO - Reading document ...
+2023-09-19 21:39:16,021 - INFO - Reading document from string ...
+2023-09-19 21:39:16,022 - INFO - Reading document ...
+2023-09-19 21:39:16,142 - WARNING - Could not find eb960c9f-4329-5766-8307-1e6ba197332c in Weaviate
+2023-09-19 21:39:16,755 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:39:16,757 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:39:17,514 - WARNING - Could not find 0f876e16-7efd-5194-8807-a1cc6be9cfb7 in Weaviate
+2023-09-19 21:39:18,135 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:39:18,135 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:39:22,355 - INFO - Saved eb960c9f-4329-5766-8307-1e6ba197332c to Weaviate
+2023-09-19 21:39:22,453 - WARNING - Could not find cc1d1a5f-8e8f-5ba4-a1a3-c80cb955e73c in Weaviate
+2023-09-19 21:39:23,146 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:39:23,146 - INFO - UUID: 96395803-c6ae-5f59-bf4b-3326c7ac0741
+2023-09-19 21:39:23,147 - INFO - Distance: 0.049961865
+2023-09-19 21:39:23,252 - WARNING - Could not find fee6a8e5-d599-557b-bc3e-9d570a0440f7 in Weaviate
+2023-09-19 21:39:23,877 - INFO - Generating output for 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:39:23,877 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:39:28,658 - INFO - Saved 0f876e16-7efd-5194-8807-a1cc6be9cfb7 to Weaviate
+2023-09-19 21:39:28,756 - WARNING - Could not find 02fd51d3-73d3-57db-849a-a84a314047f5 in Weaviate
+2023-09-19 21:39:29,367 - INFO - Generating output for 
+    Summarize the following into bullet points th...
+2023-09-19 21:39:29,367 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Summarize the following into bullet points th...
+2023-09-19 21:39:39,323 - INFO - Reading document from string ...
+2023-09-19 21:39:39,324 - INFO - Reading document ...
+2023-09-19 21:39:40,880 - WARNING - Could not find 8a67ba6f-18c8-518e-bcde-522f99f856a7 in Weaviate
+2023-09-19 21:39:41,072 - INFO - Saved fee6a8e5-d599-557b-bc3e-9d570a0440f7 to Weaviate
+2023-09-19 21:39:41,478 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:39:41,479 - INFO - UUID: 0f876e16-7efd-5194-8807-a1cc6be9cfb7
+2023-09-19 21:39:41,479 - INFO - Distance: 0.046096325
+2023-09-19 21:39:41,575 - WARNING - Could not find 14c9d6a8-0aa5-58af-b77c-9f17887a0cdb in Weaviate
+2023-09-19 21:39:42,097 - INFO - Generating output for 
+    Summarize the following into bullet points th...
+2023-09-19 21:39:42,097 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Summarize the following into bullet points th...
+2023-09-19 21:39:47,386 - INFO - Saved 02fd51d3-73d3-57db-849a-a84a314047f5 to Weaviate
+2023-09-19 21:39:47,485 - WARNING - Could not find f7a02fa2-0aae-5c00-b2c5-b1bb8d8ee00b in Weaviate
+2023-09-19 21:39:48,037 - INFO - Generating output for 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:39:48,037 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:40:03,898 - INFO - Saved 14c9d6a8-0aa5-58af-b77c-9f17887a0cdb to Weaviate
+2023-09-19 21:40:03,995 - WARNING - Could not find 6c7ccb32-d1dc-5ae1-bdfd-28b3fe12abdf in Weaviate
+2023-09-19 21:40:04,592 - INFO - Generating output for 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:40:04,593 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:40:07,029 - INFO - Reading document from string ...
+2023-09-19 21:40:07,030 - INFO - Reading document ...
+2023-09-19 21:40:07,039 - INFO - Reading document from string ...
+2023-09-19 21:40:07,040 - INFO - Reading document ...
+2023-09-19 21:40:08,476 - WARNING - Could not find e5eaa80a-03eb-53f3-8e2f-278fe4af42ee in Weaviate
+2023-09-19 21:40:09,101 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:40:09,102 - INFO - UUID: 0f876e16-7efd-5194-8807-a1cc6be9cfb7
+2023-09-19 21:40:09,102 - INFO - Distance: 0.04755968
+2023-09-19 21:40:09,202 - WARNING - Could not find a8374389-91b8-5d21-be5a-44747fdd05dc in Weaviate
+2023-09-19 21:40:09,818 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:40:09,818 - INFO - UUID: 14c9d6a8-0aa5-58af-b77c-9f17887a0cdb
+2023-09-19 21:40:09,818 - INFO - Distance: 0.038787305
+2023-09-19 21:40:09,917 - WARNING - Could not find ff6b849b-88a8-583b-89fb-ba0a6b5545cc in Weaviate
+2023-09-19 21:40:10,484 - INFO - Generating output for 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:40:10,485 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:40:11,875 - INFO - Saved f7a02fa2-0aae-5c00-b2c5-b1bb8d8ee00b to Weaviate
+2023-09-19 21:40:34,159 - INFO - Saved ff6b849b-88a8-583b-89fb-ba0a6b5545cc to Weaviate
+2023-09-19 21:40:40,012 - INFO - Reading document from string ...
+2023-09-19 21:40:40,013 - INFO - Reading document ...
+2023-09-19 21:40:41,451 - WARNING - Could not find eb2480f5-90c3-52a3-a1b2-7fdaa71de12b in Weaviate
+2023-09-19 21:40:42,015 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:40:42,015 - INFO - UUID: 0f876e16-7efd-5194-8807-a1cc6be9cfb7
+2023-09-19 21:40:42,015 - INFO - Distance: 0.049901903
+2023-09-19 21:40:42,111 - WARNING - Could not find 8f1e9fe0-4be2-54ab-9b94-7bd35af13b45 in Weaviate
+2023-09-19 21:40:42,688 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:40:42,688 - INFO - UUID: 02fd51d3-73d3-57db-849a-a84a314047f5
+2023-09-19 21:40:42,688 - INFO - Distance: 0.04471934
+2023-09-19 21:40:42,787 - WARNING - Could not find d6b80050-6ab2-5059-97b8-37beadebb009 in Weaviate
+2023-09-19 21:40:43,376 - INFO - Generating output for 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:40:43,377 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:40:57,442 - INFO - Saved 6c7ccb32-d1dc-5ae1-bdfd-28b3fe12abdf to Weaviate
+2023-09-19 21:41:06,118 - INFO - Reading document from string ...
+2023-09-19 21:41:06,119 - INFO - Reading document ...
+2023-09-19 21:41:07,764 - WARNING - Could not find 99408b9c-03e9-5dc0-8968-0fd35bf7f3f9 in Weaviate
+2023-09-19 21:41:08,414 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:41:08,414 - INFO - UUID: 0f876e16-7efd-5194-8807-a1cc6be9cfb7
+2023-09-19 21:41:08,415 - INFO - Distance: 0.044888377
+2023-09-19 21:41:08,516 - WARNING - Could not find e8afa392-59e1-5de0-9e7a-675bf2389072 in Weaviate
+2023-09-19 21:41:09,174 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:41:09,174 - INFO - UUID: 02fd51d3-73d3-57db-849a-a84a314047f5
+2023-09-19 21:41:09,175 - INFO - Distance: 0.040409207
+2023-09-19 21:41:09,272 - WARNING - Could not find d8fc8ebf-71e3-5281-98e6-d648c8fb1ed3 in Weaviate
+2023-09-19 21:41:09,851 - INFO - Generating output for 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:41:09,852 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:41:11,746 - INFO - Reading document from string ...
+2023-09-19 21:41:11,747 - INFO - Reading document ...
+2023-09-19 21:41:13,515 - WARNING - Could not find 561e9f76-62f4-5098-980c-522ca51a0fec in Weaviate
+2023-09-19 21:41:14,327 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:41:14,328 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:41:15,054 - INFO - Saved d8fc8ebf-71e3-5281-98e6-d648c8fb1ed3 to Weaviate
+2023-09-19 21:41:15,183 - INFO - error_code=context_length_exceeded error_message="This model's maximum context length is 4097 tokens. However, your messages resulted in 7654 tokens. Please reduce the length of the messages." error_param=messages error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-09-19 21:41:19,308 - WARNING - Could not find fcbc7528-9f29-5d4f-82bf-36468672d740 in Weaviate
+2023-09-19 21:41:20,061 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:41:20,061 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:41:20,316 - INFO - error_code=context_length_exceeded error_message="This model's maximum context length is 4097 tokens. However, your messages resulted in 6588 tokens. Please reduce the length of the messages." error_param=messages error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-09-19 21:41:26,505 - WARNING - Could not find c8cfd579-7964-5469-b4f1-656acc2ca1a9 in Weaviate
+2023-09-19 21:41:27,100 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:41:27,101 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:41:32,903 - WARNING - Could not find 2f8ba93e-e33c-54f0-a408-ba3021c937e9 in Weaviate
+2023-09-19 21:41:33,682 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:41:33,682 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:41:33,910 - INFO - error_code=context_length_exceeded error_message="This model's maximum context length is 4097 tokens. However, your messages resulted in 6281 tokens. Please reduce the length of the messages." error_param=messages error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-09-19 21:41:37,214 - INFO - Saved c8cfd579-7964-5469-b4f1-656acc2ca1a9 to Weaviate
+2023-09-19 21:41:37,314 - WARNING - Could not find 14fbc171-a1e6-5986-b0f0-632aa82aec86 in Weaviate
+2023-09-19 21:41:37,945 - INFO - Generating output for 
+    Summarize the following into bullet points th...
+2023-09-19 21:41:37,946 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Summarize the following into bullet points th...
+2023-09-19 21:41:45,895 - WARNING - Could not find a1068f19-d95c-55f6-b0f2-b3d2b804c727 in Weaviate
+2023-09-19 21:41:46,790 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:41:46,791 - INFO - UUID: c8cfd579-7964-5469-b4f1-656acc2ca1a9
+2023-09-19 21:41:46,791 - INFO - Distance: 0.041828632
+2023-09-19 21:41:46,888 - WARNING - Could not find 4f17812a-ffa8-5ee2-b2a6-527d9ed66f1e in Weaviate
+2023-09-19 21:41:47,592 - INFO - Generating output for 
+    Summarize the following into bullet points th...
+2023-09-19 21:41:47,592 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Summarize the following into bullet points th...
+2023-09-19 21:41:47,833 - INFO - error_code=context_length_exceeded error_message="This model's maximum context length is 4097 tokens. However, your messages resulted in 7436 tokens. Please reduce the length of the messages." error_param=messages error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-09-19 21:41:48,001 - INFO - Saved d6b80050-6ab2-5059-97b8-37beadebb009 to Weaviate
+2023-09-19 21:41:48,764 - WARNING - Could not find f071c013-31ca-5796-9f7f-9277f8c9de5c in Weaviate
+2023-09-19 21:41:49,450 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:41:49,451 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:41:50,066 - INFO - error_code=context_length_exceeded error_message="This model's maximum context length is 4097 tokens. However, your messages resulted in 4437 tokens. Please reduce the length of the messages." error_param=messages error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-09-19 21:41:50,295 - INFO - Saved 14fbc171-a1e6-5986-b0f0-632aa82aec86 to Weaviate
+2023-09-19 21:41:50,392 - WARNING - Could not find 6de0f4ce-cef8-58a9-8c82-b6fd9b5681ce in Weaviate
+2023-09-19 21:41:51,088 - INFO - Generating output for 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:41:51,089 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:41:53,303 - WARNING - Could not find f071c013-31ca-5796-9f7f-9277f8c9de5c in Weaviate
+2023-09-19 21:41:53,956 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:41:53,956 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:41:54,393 - INFO - error_code=context_length_exceeded error_message="This model's maximum context length is 4097 tokens. However, your messages resulted in 4437 tokens. Please reduce the length of the messages." error_param=messages error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-09-19 21:42:00,705 - WARNING - Could not find 6c0c9c95-e154-57ce-a617-4e93e09302d6 in Weaviate
+2023-09-19 21:42:01,323 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:42:01,324 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:42:01,685 - INFO - error_code=context_length_exceeded error_message="This model's maximum context length is 4097 tokens. However, your messages resulted in 4818 tokens. Please reduce the length of the messages." error_param=messages error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-09-19 21:42:02,653 - WARNING - Could not find 9a1bab1e-488a-514d-8356-af19b5b0e6a0 in Weaviate
+2023-09-19 21:42:03,172 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:42:03,172 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:42:07,180 - INFO - Saved 6de0f4ce-cef8-58a9-8c82-b6fd9b5681ce to Weaviate
+2023-09-19 21:42:23,628 - INFO - Reading document from string ...
+2023-09-19 21:42:23,628 - INFO - Reading document ...
+2023-09-19 21:42:25,536 - INFO - Reading document from string ...
+2023-09-19 21:42:25,537 - INFO - Reading document ...
+2023-09-19 21:42:29,687 - WARNING - Could not find feca3e89-4a14-593a-b4ec-8085c71ba879 in Weaviate
+2023-09-19 21:42:30,307 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:42:30,307 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:42:31,496 - WARNING - Could not find 3e0720a2-dbb4-5f73-8623-66ef10e894e1 in Weaviate
+2023-09-19 21:42:32,049 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:42:32,050 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:42:34,576 - INFO - Saved 9a1bab1e-488a-514d-8356-af19b5b0e6a0 to Weaviate
+2023-09-19 21:42:34,671 - WARNING - Could not find ce4dc9d9-2a63-5826-a10f-160eefc05064 in Weaviate
+2023-09-19 21:42:35,160 - INFO - Generating output for 
+    Summarize the following into bullet points th...
+2023-09-19 21:42:35,161 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Summarize the following into bullet points th...
+2023-09-19 21:42:38,216 - INFO - Reading document from string ...
+2023-09-19 21:42:38,216 - INFO - Reading document ...
+2023-09-19 21:42:49,143 - INFO - Saved ce4dc9d9-2a63-5826-a10f-160eefc05064 to Weaviate
+2023-09-19 21:42:49,242 - WARNING - Could not find ea7dad87-dc61-5671-9b4a-e5b3e3f0fd9b in Weaviate
+2023-09-19 21:42:49,723 - INFO - Generating output for 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:42:49,723 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:42:56,092 - INFO - Saved feca3e89-4a14-593a-b4ec-8085c71ba879 to Weaviate
+2023-09-19 21:42:56,188 - WARNING - Could not find 1175f473-45b3-5727-bb74-080d3ce6fe9a in Weaviate
+2023-09-19 21:42:56,729 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:42:56,730 - INFO - UUID: ce4dc9d9-2a63-5826-a10f-160eefc05064
+2023-09-19 21:42:56,730 - INFO - Distance: 0.045199573
+2023-09-19 21:42:56,835 - WARNING - Could not find 5a04468a-ca86-59db-9d16-bf7361c263d5 in Weaviate
+2023-09-19 21:42:57,546 - INFO - Generating output for 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:42:57,546 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:43:08,611 - INFO - Saved 3e0720a2-dbb4-5f73-8623-66ef10e894e1 to Weaviate
+2023-09-19 21:43:08,711 - WARNING - Could not find 36d43e58-4bf1-537e-8e5a-85fed51ee9cf in Weaviate
+2023-09-19 21:43:09,259 - INFO - Generating output for 
+    Summarize the following into bullet points th...
+2023-09-19 21:43:09,260 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Summarize the following into bullet points th...
+2023-09-19 21:43:25,716 - INFO - Saved 36d43e58-4bf1-537e-8e5a-85fed51ee9cf to Weaviate
+2023-09-19 21:43:25,819 - WARNING - Could not find 973597f7-9b5f-596b-844f-b53fc22375e9 in Weaviate
+2023-09-19 21:43:26,328 - INFO - Generating output for 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:43:26,328 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:43:34,080 - INFO - Saved 5a04468a-ca86-59db-9d16-bf7361c263d5 to Weaviate
+2023-09-19 21:44:01,809 - INFO - Saved ea7dad87-dc61-5671-9b4a-e5b3e3f0fd9b to Weaviate
+2023-09-19 21:44:19,058 - INFO - Saved 973597f7-9b5f-596b-844f-b53fc22375e9 to Weaviate
+2023-09-19 21:44:38,816 - INFO - Reading document from string ...
+2023-09-19 21:44:38,817 - INFO - Reading document ...
+2023-09-19 21:45:05,565 - WARNING - Could not find b6273f12-1d7e-5ae2-9edb-8bbba72ab9c9 in Weaviate
+2023-09-19 21:45:06,056 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:45:06,057 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:45:09,936 - INFO - Reading document from string ...
+2023-09-19 21:45:09,936 - INFO - Reading document ...
+2023-09-19 21:45:16,047 - INFO - Reading document from string ...
+2023-09-19 21:45:16,047 - INFO - Reading document ...
+2023-09-19 21:45:25,231 - INFO - Reading document from string ...
+2023-09-19 21:45:25,232 - INFO - Reading document ...
+2023-09-19 21:45:27,517 - INFO - Reading document from string ...
+2023-09-19 21:45:27,517 - INFO - Reading document ...
+2023-09-19 21:45:29,112 - INFO - Reading document from string ...
+2023-09-19 21:45:29,113 - INFO - Reading document ...
+2023-09-19 21:45:29,825 - INFO - Saved b6273f12-1d7e-5ae2-9edb-8bbba72ab9c9 to Weaviate
+2023-09-19 21:45:29,924 - WARNING - Could not find 4e7abad1-8eb8-5072-afa9-612798555726 in Weaviate
+2023-09-19 21:45:30,457 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:45:30,457 - INFO - UUID: 36d43e58-4bf1-537e-8e5a-85fed51ee9cf
+2023-09-19 21:45:30,457 - INFO - Distance: 0.049319446
+2023-09-19 21:45:30,552 - WARNING - Could not find d2cfe633-1448-566a-8f1f-fb8744685fa9 in Weaviate
+2023-09-19 21:45:31,005 - INFO - Generating output for 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:45:31,005 - INFO - Calling gpt-3.5-turbo with prompt: 
+    Return a glossary of key terms or jargon from...
+2023-09-19 21:45:31,217 - INFO - Reading document from string ...
+2023-09-19 21:45:31,217 - INFO - Reading document ...
+2023-09-19 21:45:39,117 - INFO - Reading document from string ...
+2023-09-19 21:45:39,117 - INFO - Reading document ...
+2023-09-19 21:45:41,613 - INFO - Reading document from string ...
+2023-09-19 21:45:41,614 - INFO - Reading document ...
+2023-09-19 21:45:45,065 - INFO - Reading document from string ...
+2023-09-19 21:45:45,065 - INFO - Reading document ...
+2023-09-19 21:45:49,766 - INFO - Reading document from string ...
+2023-09-19 21:45:49,766 - INFO - Reading document ...
+2023-09-19 21:45:51,496 - INFO - Reading document from string ...
+2023-09-19 21:45:51,496 - INFO - Reading document ...
+2023-09-19 21:45:53,731 - INFO - Reading document from string ...
+2023-09-19 21:45:53,731 - INFO - Reading document ...
+2023-09-19 21:46:05,448 - INFO - Reading document from string ...
+2023-09-19 21:46:05,448 - INFO - Reading document ...
+2023-09-19 21:46:06,283 - INFO - Reading document from string ...
+2023-09-19 21:46:06,283 - INFO - Reading document ...
+2023-09-19 21:46:09,632 - INFO - Reading document from string ...
+2023-09-19 21:46:09,632 - INFO - Reading document ...
+2023-09-19 21:46:12,612 - INFO - Reading document from string ...
+2023-09-19 21:46:12,612 - INFO - Reading document ...
+2023-09-19 21:46:19,679 - INFO - Reading document from string ...
+2023-09-19 21:46:19,679 - INFO - Reading document ...
+2023-09-19 21:46:29,272 - INFO - Saved d2cfe633-1448-566a-8f1f-fb8744685fa9 to Weaviate
+2023-09-19 21:46:44,896 - INFO - Reading document from string ...
+2023-09-19 21:46:44,897 - INFO - Reading document ...
+2023-09-19 21:46:45,762 - INFO - Reading document from string ...
+2023-09-19 21:46:45,762 - INFO - Reading document ...
+2023-09-19 21:46:47,346 - INFO - Reading document from string ...
+2023-09-19 21:46:47,346 - INFO - Reading document ...
+2023-09-19 21:46:48,414 - INFO - Reading document from string ...
+2023-09-19 21:46:48,415 - INFO - Reading document ...
+2023-09-19 21:46:49,247 - INFO - Reading document from string ...
+2023-09-19 21:46:49,247 - INFO - Reading document ...
+2023-09-19 21:46:50,920 - INFO - Reading document from string ...
+2023-09-19 21:46:50,920 - INFO - Reading document ...
+2023-09-19 21:47:02,339 - INFO - Reading document from string ...
+2023-09-19 21:47:02,339 - INFO - Reading document ...
+2023-09-19 21:47:02,343 - WARNING - Created a chunk of size 1919, which is longer than the specified 1000
+2023-09-19 21:47:02,347 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:47:12,689 - INFO - Reading document from string ...
+2023-09-19 21:47:12,689 - INFO - Reading document ...
+2023-09-19 21:47:12,693 - WARNING - Created a chunk of size 1919, which is longer than the specified 1000
+2023-09-19 21:47:12,693 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:47:13,209 - INFO - Start answering based on prompt: Tell me what this course is about in 2 sentences.
+2023-09-19 21:47:13,211 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 21:47:16,008 - INFO - The returned answer is: This course is about:
+
+- Being controversial and covering a broad range of topics in the field of cyber security.
+- Providing exposure to tools used by attackers and defenders, understanding tradeoffs, and thinking like an attacker.
+
+If you have any more questions or need assistance with anything else, feel free to ask!
+2023-09-19 21:47:16,009 - INFO - Answering process completed.
+2023-09-19 21:47:30,150 - INFO - Reading document from string ...
+2023-09-19 21:47:30,150 - INFO - Reading document ...
+2023-09-19 21:47:30,154 - WARNING - Created a chunk of size 1919, which is longer than the specified 1000
+2023-09-19 21:47:30,154 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:47:30,675 - INFO - Start answering based on prompt: Tell me what this course is about in 1 paragraph.
+2023-09-19 21:47:30,675 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 21:47:35,358 - INFO - The returned answer is: This course is not about hacking, cryptography, or saving the world. Instead, it is a controversial course that provides exposure to tools used by attackers and defenders in the field of cyber security. It aims to help you understand tradeoffs, think like an attacker, and be informed about security issues that many developers overlook. It highlights the importance of considering security in software and emphasizes the lack of focus on health, safety, and security in computer science degrees. If you have any other questions or need further assistance, feel free to ask.
+2023-09-19 21:47:35,359 - INFO - Answering process completed.
+2023-09-19 21:47:58,136 - INFO - Reading document from string ...
+2023-09-19 21:47:58,136 - INFO - Reading document ...
+2023-09-19 21:47:58,140 - WARNING - Created a chunk of size 1919, which is longer than the specified 1000
+2023-09-19 21:47:58,141 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:47:58,658 - INFO - Start answering based on prompt: List out a couple of topics that will be covered in this course.
+2023-09-19 21:47:58,659 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 21:48:02,086 - INFO - The returned answer is: Based on the provided examples, the topics that will be covered in this course are:
+
+- Social engineering
+- x86, x64, ARM reverse engineering
+- Privacy
+- Cryptocurrency
+- Security management
+
+If you have any more questions or need assistance with anything else, feel free to ask!
+2023-09-19 21:48:02,087 - INFO - Answering process completed.
+2023-09-19 21:48:14,516 - INFO - Reading document from string ...
+2023-09-19 21:48:14,516 - INFO - Reading document ...
+2023-09-19 21:51:56,009 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:52:03,538 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:52:27,197 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:52:37,228 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:52:37,572 - INFO - Start answering based on prompt: Tell me what this course is about in less than a paragraph..
+2023-09-19 21:52:37,572 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 21:52:42,869 - INFO - The returned answer is: Based on the provided examples, this course is about:
+- Cyber Security, which is a broad field
+- Providing exposure to tools used by attackers and defenders
+- Understanding tradeoffs
+- Thinking like an attacker
+- Being informed of the issues in Computer Science and tech that many people are not aware of
+- Highlighting the lack of consideration for security in software development
+- Contrasting the lack of security education in Computer Science degrees compared to other fields like Civil and Environmental Engineering
+
+If you have any other questions or need further assistance, please let me know.
+2023-09-19 21:52:42,869 - INFO - Answering process completed.
+2023-09-19 21:53:13,880 - WARNING - Could not find 778413d5-e824-59ac-8404-74ef770e9181 in Weaviate
+2023-09-19 21:53:14,606 - INFO - Generating output for 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:53:14,606 - INFO - Calling gpt-3.5-turbo with prompt: 
+        Write a set of multiple-choice quiz quest...
+2023-09-19 21:53:38,065 - INFO - Saved 778413d5-e824-59ac-8404-74ef770e9181 to Weaviate
+2023-09-19 21:53:38,166 - WARNING - Could not find 7388e4e5-0dec-57b9-b883-312bed450624 in Weaviate
+2023-09-19 21:53:38,673 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:53:38,674 - INFO - UUID: 735a0c54-3aa9-59af-81e4-a2eccdd7a8d4
+2023-09-19 21:53:38,674 - INFO - Distance: 0.043818593
+2023-09-19 21:53:38,778 - INFO - Found 9802177d-43ef-5497-8ba1-cb4eba660022 in Weaviate
+2023-09-19 21:53:38,794 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:53:56,736 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:53:57,080 - INFO - Start answering based on prompt: Tell me what this course is about in a paragraph or less..
+2023-09-19 21:53:57,081 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 21:54:00,646 - INFO - The returned answer is: Based on the provided examples, this course is NOT about the following:
+
+- Hacking all things
+- Becoming an elite hacker (referred to as "31337 h4x0r")
+- Introduction to Cryptography
+- Saving the world
+- Finding a definitive answer ("black or white")
+
+Please let me know if there is anything else I can assist you with.
+2023-09-19 21:54:00,647 - INFO - Answering process completed.
+2023-09-19 21:54:11,189 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:54:11,695 - INFO - Start answering based on prompt: Tell me what this course is about in a paragraph or less..
+2023-09-19 21:54:11,695 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 21:54:14,718 - INFO - The returned answer is: Based on the provided documents, the course is NOT about the following:
+
+- Hacking all things
+- Being an elite hacker
+- Introduction to Cryptography
+- Saving the world
+- The answer being "black or white"
+
+If you have any other questions or need further assistance, feel free to ask.
+2023-09-19 21:54:14,719 - INFO - Answering process completed.
+2023-09-19 21:54:38,213 - INFO - Found 778413d5-e824-59ac-8404-74ef770e9181 in Weaviate
+2023-09-19 21:54:38,315 - WARNING - Could not find 7388e4e5-0dec-57b9-b883-312bed450624 in Weaviate
+2023-09-19 21:54:38,887 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:54:38,887 - INFO - UUID: 735a0c54-3aa9-59af-81e4-a2eccdd7a8d4
+2023-09-19 21:54:38,888 - INFO - Distance: 0.043745875
+2023-09-19 21:54:38,989 - INFO - Found 9802177d-43ef-5497-8ba1-cb4eba660022 in Weaviate
+2023-09-19 21:54:39,005 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:54:52,259 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:54:52,594 - INFO - Start answering based on prompt: Tell me what this Applied Natural Language Processing course is about in a paragraph or less..
+2023-09-19 21:54:52,595 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 21:54:57,300 - INFO - The returned answer is: The Applied Natural Language Processing course is an introduction to NLP terminology and basic preprocessing techniques for text data. It covers topics such as corpus (collection of text), syntax (grammatical structure of the text), semantics (meaning of text), tokenization (splitting text into smaller pieces), vocabulary (list of unique words), and stop words (commonly used words that don't contribute much to the overall meaning). If you need more specific information or have any other questions, feel free to ask. I'm here to help!
+2023-09-19 21:54:57,301 - INFO - Answering process completed.
+2023-09-19 21:55:18,987 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:55:19,336 - INFO - Start answering based on prompt: What is the difference between stemming and lemmatization.
+2023-09-19 21:55:19,336 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 21:55:25,199 - INFO - The returned answer is: The difference between stemming and lemmatization is as follows:
+
+- Stemming reduces words to their word stem, base or root form.
+- Lemmatization reduces inflectional forms to a common base form, known as the lemma. 
+
+Stemming and lemmatization are similar in that they both aim to reduce words to a common form, but there is a slight difference in how they achieve this:
+
+- Stemming chops off inflections from words, while lemmatization uses lexical knowledge bases to obtain the correct base forms.
+
+If you have any more questions or need further assistance, feel free to ask!
+2023-09-19 21:55:25,200 - INFO - Answering process completed.
+2023-09-19 21:56:33,003 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:56:33,377 - INFO - Start answering based on prompt: What is the difference between stemming and lemmatization.
+2023-09-19 21:56:33,378 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 21:56:38,386 - INFO - The returned answer is: Stemming and lemmatization are both text normalization techniques used in natural language processing (NLP). Here is the difference between them:
+
+- Stemming: reducing words to their word stem, base, or root form.
+- Lemmatization: similar to stemming, it reduces inflectional forms to a common base form called the lemma. Lemmatization uses lexical knowledge bases to obtain the correct base forms of words.
+
+If you have any more questions or if there's anything else I can assist you with, please let me know!
+2023-09-19 21:56:38,387 - INFO - Answering process completed.
+2023-09-19 21:56:53,069 - INFO - Found 778413d5-e824-59ac-8404-74ef770e9181 in Weaviate
+2023-09-19 21:56:53,164 - WARNING - Could not find 7388e4e5-0dec-57b9-b883-312bed450624 in Weaviate
+2023-09-19 21:56:53,747 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 21:56:53,747 - INFO - UUID: 735a0c54-3aa9-59af-81e4-a2eccdd7a8d4
+2023-09-19 21:56:53,747 - INFO - Distance: 0.043842256
+2023-09-19 21:56:53,850 - INFO - Found 9802177d-43ef-5497-8ba1-cb4eba660022 in Weaviate
+2023-09-19 21:56:53,865 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:56:54,185 - INFO - Start answering based on prompt: What is the difference between stemming and lemmatization.
+2023-09-19 21:56:54,186 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 21:56:57,777 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:56:57,886 - INFO - The returned answer is: Based on the provided documents, the difference between stemming and lemmatization is as follows:
+
+- Stemming reduces words to their word stem, base, or root form.
+- Lemmatization also reduces words to a common base form, but it uses lexical knowledge bases to ensure the correct base forms of words are obtained.
+
+If you have any other questions or need further assistance, feel free to ask!
+2023-09-19 21:56:57,886 - INFO - Answering process completed.
+2023-09-19 21:57:22,279 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:57:22,638 - INFO - Start answering based on prompt: Tell me what Applied Natural Language Processing is about in one paragraph or less.
+2023-09-19 21:57:22,638 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 21:57:27,025 - INFO - The returned answer is: Based on the examples provided in the documents, Applied Natural Language Processing (NLP) is about:
+
+- Introducing NLP terminology such as corpus, syntax, semantics, tokenization, vocabulary, and stop words
+- Applying basic preprocessing techniques on text data
+- Analyzing natural language using grammatical rules
+- Splitting longer pieces of text into smaller pieces (tokens)
+- Creating a list of unique words
+
+If you have any more questions or need assistance with anything else, feel free to ask!
+2023-09-19 21:57:27,025 - INFO - Answering process completed.
+2023-09-19 21:57:37,971 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 21:57:38,433 - INFO - Start answering based on prompt: Explain the difference between stemming and lemmatization.
+2023-09-19 21:57:38,433 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 21:57:47,280 - INFO - The returned answer is: Stemming and lemmatization are both text normalization techniques used in natural language processing (NLP). Here's the difference between them:
+
+- Stemming: Stemming reduces words to their word stem, base, or root form. It aims to remove inflections from words by chopping off the ends of words. For example, the word "running" would be stemmed to "run". Stemming does not guarantee that the resulting stem is an actual word in the language.
+
+- Lemmatization: Lemmatization also reduces words to a common base form, but it uses lexical knowledge bases to find the correct base form of a word. Unlike stemming, lemmatization considers the context and meaning of the word before reducing it. For example, the word "running" would be lemmatized to "run" because it recognizes that "running" is the present participle form of the verb "run". Lemmatization ensures that the resulting base form is a valid word in the language.
+
+If you have any more questions or need assistance with anything else, feel free to ask!
+2023-09-19 21:57:47,280 - INFO - Answering process completed.
+2023-09-19 22:06:36,807 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 22:06:37,217 - INFO - Start answering based on prompt: What is the difference between stemming and lemmatization?.
+2023-09-19 22:06:37,218 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 22:06:44,218 - INFO - The returned answer is: Stemming and lemmatization are both text normalization techniques used in natural language processing (NLP). Here are the differences between the two:
+
+- Stemming reduces words to their word stem, base, or root form.
+- Lemmatization also reduces inflectional forms to a common base form, but it uses lexical knowledge bases to get the correct base forms of words instead of simply chopping off inflections.
+
+In summary, the main difference between stemming and lemmatization is that stemming does not take into account the context or meaning of the word, while lemmatization uses lexical knowledge to determine the base form of a word.
+
+If you have any other questions or need further assistance, feel free to ask!
+2023-09-19 22:06:44,219 - INFO - Answering process completed.
+2023-09-19 22:06:52,822 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 22:06:53,233 - INFO - Start answering based on prompt: What is the difference between stemming and lemmatization?.
+2023-09-19 22:06:53,233 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 22:06:58,118 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 22:07:00,644 - INFO - The returned answer is: Stemming and lemmatization are two different techniques used in text preprocessing. Here are the key differences:
+
+- Stemming: Stemming involves reducing words to their word stem, base, or root form. It chops off inflections from words to get to the base form. Stemming does not consider the context of the word and may result in non-dictionary words. For example:
+  - Original word: running
+  - Stemmed word: run
+
+- Lemmatization: Lemmatization is similar to stemming but reduces inflectional forms to a common base form called the lemma. It uses lexical knowledge bases to determine the correct base form of a word, considering its context. For example:
+  - Original word: running
+  - Lemmatized word: run
+
+If you have any more questions or need further assistance, feel free to ask!
+2023-09-19 22:07:00,644 - INFO - Answering process completed.
+2023-09-19 22:07:05,442 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 22:07:31,523 - INFO - Found 778413d5-e824-59ac-8404-74ef770e9181 in Weaviate
+2023-09-19 22:07:31,619 - WARNING - Could not find 7388e4e5-0dec-57b9-b883-312bed450624 in Weaviate
+2023-09-19 22:07:32,104 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 22:07:32,104 - INFO - UUID: 735a0c54-3aa9-59af-81e4-a2eccdd7a8d4
+2023-09-19 22:07:32,104 - INFO - Distance: 0.043842256
+2023-09-19 22:07:32,206 - INFO - Found 9802177d-43ef-5497-8ba1-cb4eba660022 in Weaviate
+2023-09-19 22:07:32,216 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 22:07:43,297 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 22:07:43,709 - INFO - Start answering based on prompt: Tell me what Applied Natural Language Processing is about in one paragraph or less.
+2023-09-19 22:07:43,709 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 22:07:49,136 - INFO - The returned answer is: Based on the provided documents, here is an answer to your question:
+
+Applied Natural Language Processing, or NLP, is a field that involves the use of techniques and tools to analyze and understand human language. It includes processes such as text preprocessing, syntactic parsing, and semantic analysis. NLP helps in extracting meaning and structure from text data by tokenizing, removing stop words, and creating a vocabulary of unique words. It allows for the analysis of large text collections, such as Yelp reviews or Wikipedia, and helps in uncovering patterns and insights from textual data.
+
+Is there anything else I can assist you with?
+2023-09-19 22:07:49,136 - INFO - Answering process completed.
+2023-09-19 22:08:05,461 - INFO - Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-09-19 22:08:05,864 - INFO - Start answering based on prompt: What is the difference between stemming and lemmatization?.
+2023-09-19 22:08:05,864 - INFO - The top 4 chunks are considered to answer the user's query.
+2023-09-19 22:08:11,863 - INFO - The returned answer is: Stemming and lemmatization are both text normalization techniques used in natural language processing (NLP). Here are the differences between them:
+
+Stemming:
+- Reduces words to their word stem, base, or root form
+- Does not use lexical knowledge bases
+- Chops off inflections to get the base form of words
+
+Lemmatization:
+- Similar to stemming, it also reduces inflectional forms to a common base form (lemma)
+- Uses lexical knowledge bases to determine the correct base form of words
+- Does not simply chop off inflections, but rather applies linguistic rules and knowledge
+
+If you have any more questions or need further assistance, feel free to ask!
+2023-09-19 22:08:11,864 - INFO - Answering process completed.
+2023-09-19 22:08:49,198 - INFO - Found 778413d5-e824-59ac-8404-74ef770e9181 in Weaviate
+2023-09-19 22:08:49,296 - WARNING - Could not find 7388e4e5-0dec-57b9-b883-312bed450624 in Weaviate
+2023-09-19 22:08:49,756 - INFO - Found similar object(s) in Weaviate with similarity above threshold
+2023-09-19 22:08:49,757 - INFO - UUID: 735a0c54-3aa9-59af-81e4-a2eccdd7a8d4
+2023-09-19 22:08:49,757 - INFO - Distance: 0.043842256
+2023-09-19 22:08:49,858 - INFO - Found 9802177d-43ef-5497-8ba1-cb4eba660022 in Weaviate
