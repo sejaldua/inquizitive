@@ -7,6 +7,7 @@ from langchain.document_loaders import PyPDFLoader
 from langchain.document_loaders import Docx2txtLoader
 from langchain.document_loaders import TextLoader
 from langchain.document_loaders import UnstructuredMarkdownLoader
+from langchain.document_loaders import UnstructuredPowerPointLoader
 from langchain.prompts import PromptTemplate
 from langchain.chains.question_answering import load_qa_chain
 
@@ -48,7 +49,7 @@ def load_documents(files=[]):
             if fname.endswith('.pdf'):
                 loader = PyPDFLoader(temp_filepath)
                 documents.extend(loader.load())
-            elif fname.endswith('.docx') or fname.endswith('.doc'):
+            elif fname.endswith('.doc'):
                 loader = Docx2txtLoader(temp_filepath)
                 documents.extend(loader.load())
             elif fname.endswith('.txt'):
@@ -56,6 +57,9 @@ def load_documents(files=[]):
                 documents.extend(loader.load())
             elif fname.endswith('.md'):
                 loader = UnstructuredMarkdownLoader(temp_filepath)
+                documents.extend(loader.load())
+            elif fname.endswith('.ppt'):
+                loader = UnstructuredPowerPointLoader(temp_filepath)
                 documents.extend(loader.load())
 
     # print(documents[0].page_content)

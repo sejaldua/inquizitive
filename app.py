@@ -244,7 +244,7 @@ mode =  st.sidebar.selectbox('Choose demonstration mode', ['Pre-loaded', 'Intera
 if mode == 'Pre-loaded':
     text, documents = chat.load_documents()
 else:
-    files = st.sidebar.file_uploader('Upload notes or lecture slides', accept_multiple_files=True)
+    files = st.sidebar.file_uploader('Upload notes or lecture slides', accept_multiple_files=True, type=['pdf', 'docx', 'pptx', 'txt', 'md'])
     learning_files = files if files is not None else []
     text, documents = chat.load_documents(learning_files)
 
@@ -315,7 +315,6 @@ if 'materials_processed' in st.session_state and st.session_state['materials_pro
                 st.button('Next Question', use_container_width=True, on_click=increment_question_num)
 
             st.markdown(f"##### Question {question_num + 1} of {len(quiz_json)}: {questions[question_num]}")
-            # user_answer = st.radio("", label_visibility="collapsed", options=answer_choices)
 
             if 'a' not in st.session_state:
                 st.session_state.a = 0
@@ -352,7 +351,7 @@ if 'materials_processed' in st.session_state and st.session_state['materials_pro
 
             if user_answer is not None:
                 user_answer_num = answer_choices.index(user_answer)
-                with st.expander('Reveal Answer', expanded=False):
+                if st.button('Submit Answer', type='secondary'):
                     if user_answer_num == answers[question_num][0]:
                         st.success(f'Correct! {explanations[question_num]}')
                     else:

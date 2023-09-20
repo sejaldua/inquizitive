@@ -2,9 +2,11 @@ openai
 chromadb
 unstructured
 unstructured[pdf]
+unstructured[all-docs]
 python-magic==0.4.15
 tiktoken
 langchain
 pypdf
 weaviate-client
 streamlit-chat
+docx2txt
