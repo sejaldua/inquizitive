@@ -1,5 +1,4 @@
 openai
-chromadb
 unstructured
 unstructured[pdf]
 unstructured[all-docs]
@@ -10,3 +9,5 @@ pypdf
 weaviate-client
 streamlit-chat
 docx2txt
+pysqlite3-binary
+chromadb
