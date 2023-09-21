@@ -33,13 +33,16 @@ APIs Used:
 
 Feature Highlights ✨
 
-- Can ingest text from multiple files in the same session
-- Supports various file extensions (pdf, pptx, docx, txt, markdown, etc.)
-- Leverages `st.cache_data()` functionality so that a document that has been uploaded before does not have to be re-processed
-- Two vector databases used: weaviate and chromadb
-- Error-catching when the quiz cannot be generated
-- Expanations for incorrect quiz answers provided
-- Pre-loaded example provided in case the user does not have a file on-hand
+- UI / UX Design Choices
+  - Can ingest text from multiple files in the same session
+  - Supports various file extensions (pdf, pptx, docx, txt, markdown, etc.)
+  - Expanations for incorrect quiz answers provided
+  - Pre-loaded example provided in case the user does not have a file on-hand
+- Technology / Engineering
+  - Error-catching when the quiz cannot be generated
+  - Leverages `st.cache_data()` functionality so that a document that has been uploaded before does not have to be re-processed
+  - Two vector databases used: `weaviate` and `chromadb`
+  - Streamlit radio buttons currently do not support no pre-selected / default answer choice, so I implemented radio-button like functionality using `st.checkbox()` and `st.session_state` variables!
 
 Retrieval-Augmented Generation Revision Quiz JSON Builder partial prompt:
 
